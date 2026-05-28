@@ -1,6 +1,8 @@
 package com.example.examen2abv;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,6 +36,21 @@ public class MainActivity extends AppCompatActivity {
             );
 
             return insets;
+        });
+
+        binding.btnLogin.setOnClickListener(v -> {
+            String password = binding.edtPassword.getText().toString();
+
+            if (!password.equals("abc123")) {
+                Toast.makeText(
+                        MainActivity.this,
+                        getString(R.string.wrong_password),
+                        Toast.LENGTH_SHORT
+                ).show();
+            } else {
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
         });
     }
 }

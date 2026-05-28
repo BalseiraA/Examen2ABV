@@ -6,7 +6,7 @@
     <string name="password">Contraseña</string>
     <string name="btnlogin">Iniciar sesión</string>
 
-    <!--<string name="toast_wrong_password">Contraseña incorrecta</string>-->
+    <string name="wrong_password">Contraseña incorrecta</string>
 
     <string name="profile_title">Perfil de Usuario</string>
     <string name="profile_label">Bienvenido</string>
