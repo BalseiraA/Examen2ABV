@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Examen2ABV</string>
+
+    <string name="title">Bienvenid@!</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="btnlogin">Iniciar sesión</string>
+
+    <!--<string name="toast_wrong_password">Contraseña incorrecta</string>-->
+
+    <string name="profile_title">Perfil de Usuario</string>
+    <string name="profile_label">Bienvenido</string>
+    <string name="default_user">Usuario</string>
 </resources>
